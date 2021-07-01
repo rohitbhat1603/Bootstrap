@@ -36,15 +36,19 @@ h1 {
     
 }
 
-.title-image{
-    width:60%;
+.title-image{ 
+    width: 20%;
     transform: rotate(25deg);
-    margin-left: 30%;
-    margin-top: 5%;
+    margin-left: 5%;
+    margin-top: 2%;
+    position: absolute;
+    
 }
 
 #features {
     padding: 7% 15%;
+    background-color: white;
+    position: relative;
 }
 
 .features-icon{
@@ -126,3 +130,45 @@ h2 {
     color: grey;
     font-size: 0.9rem;
 }
+
+#cta{
+    background-color: #ff4c68;
+    height: 300px;
+    color: white;
+    text-align: center;
+    
+}
+
+.call-to-action{
+    padding: 5% 0;
+   
+}
+
+#footer{
+    text-align: center;
+}
+
+.footer-icons{
+    margin-top: 10%;
+    margin-left: 2%;
+}
+
+
+
+
+
+@media (max-width:1028px){
+    .title-image{
+        position: static;
+        width: 40%;
+        padding-top: 7%;
+        transform: rotate(0deg);
+        padding-right: 5%;
+        
+    }
+
+    #title{
+        text-align: center;
+    }
+}
+
